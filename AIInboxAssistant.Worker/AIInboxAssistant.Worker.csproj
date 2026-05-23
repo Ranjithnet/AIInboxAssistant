@@ -16,4 +16,9 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIInboxAssistant.Core\AIInboxAssistant.Core.csproj" />
+    <ProjectReference Include="..\AIInboxAssistant.Infrastructure\AIInboxAssistant.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
