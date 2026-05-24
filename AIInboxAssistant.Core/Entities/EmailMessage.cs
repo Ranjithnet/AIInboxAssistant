@@ -25,5 +25,7 @@ namespace AIInboxAssistant.Core.Entities
         public string Priority { get; set; } = "Low";
 
         public bool IsProcessed { get; set; }
+
+        public bool IsRead { get; set; }
     }
 }
